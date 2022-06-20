@@ -14,6 +14,8 @@
     />
     <link rel="stylesheet" href="./Css/Normalize.css" />
     <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" href="./Css/menu.css" />
+
     <script
       src="https://kit.fontawesome.com/fcca775c18.js"
       crossorigin="anonymous"
@@ -34,7 +36,6 @@
           />
         </div>
       </header>
-
       <main>
         <img
           src="./Assets/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
@@ -43,8 +44,22 @@
         />
 
         <div class="name-heart flex-row">
-          <h1>À la française</h1>
-          <span class="heart-2"><i class="fa-regular fa-heart"></i></span>
+          <h1>Le délice des sens</h1>
+          <div class="heart-container menu-heart">
+            <svg class="heart-stroke">
+              <path
+                d="M20,35.07,4.55,19.62a8.5,8.5,0,0,1-.12-12l.12-.12a8.72,8.72,0,0,1,12.14,0L20,10.77l3.3-3.3A8.09,8.09,0,0,1,29.13,4.9a8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.12,12l-.12.12ZM10.64,7.13A6.44,6.44,0,0,0,6.07,18.19L20,32.06,33.94,18.12A6.44,6.44,0,0,0,34,9l0,0a6.44,6.44,0,0,0-4.77-1.85A6,6,0,0,0,24.83,9L20,13.78,15.21,9A6.44,6.44,0,0,0,10.64,7.13Z"
+              />
+            </svg>
+            <span class="heart-clip"></span>
+            <svg>
+              <clipPath id="svgPath">
+                <path
+                  d="M20,35.09,4.55,19.64a8.5,8.5,0,0,1-.13-12l.13-.13a8.72,8.72,0,0,1,12.14,0L20,10.79l3.3-3.3a8.09,8.09,0,0,1,5.83-2.58,8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.13,12l-.13.13Z"
+                />
+              </clipPath>
+            </svg>
+          </div>
         </div>
 
         <section class="entries">
@@ -53,8 +68,8 @@
             <div class="choice">
               <a href="#" class="good flex-row">
                 <div class="info">
-                  <h2>Tartare de poulpe acidulé</h2>
-                  <p class="sub-description">Aux zestes d'orange</p>
+                  <h2>Tartare de thon</h2>
+                  <p class="sub-description">Assaisonné au yuzu</p>
                 </div>
                 <div class="price">
                   <p class="sub-description">25€</p>
@@ -67,8 +82,10 @@
             <div class="choice">
               <a href="#" class="good flex-row">
                 <div class="info">
-                  <h2>Velouté de légumes d'antan</h2>
-                  <p class="sub-description">Carotte, panais, topinambour</p>
+                  <h2>Bouchée de homard croustillant</h2>
+                  <p class="sub-description">
+                    Et sa farandole de petits légumes
+                  </p>
                 </div>
                 <div class="price">
                   <p class="sub-description">35€</p>
@@ -81,8 +98,8 @@
             <div class="choice">
               <a href="#" class="good flex-row">
                 <div class="info">
-                  <h2>Soupe à l'oignon</h2>
-                  <p class="sub-description">Revisitée</p>
+                  <h2>Velouté de cèpes</h2>
+                  <p class="sub-description">Aux truffes</p>
                 </div>
                 <div class="price">
                   <p class="sub-description">20€</p>
@@ -101,10 +118,8 @@
             <div class="choice">
               <a href="#" class="good flex-row">
                 <div class="info">
-                  <h2>Coquilles Saint-Jacques</h2>
-                  <p class="sub-description">
-                    Accompagnées d'une purée de panais
-                  </p>
+                  <h2>Poulet rôti aux herbes de Provence</h2>
+                  <p class="sub-description">Et sa crème de truffe</p>
                 </div>
                 <div class="price">
                   <p class="sub-description">40€</p>
@@ -117,10 +132,8 @@
             <div class="choice">
               <a href="#" class="good flex-row">
                 <div class="info">
-                  <h2>Magret de canard</h2>
-                  <p class="sub-description">
-                    Et parmentier de pommes de terre
-                  </p>
+                  <h2>Langouste rôtie</h2>
+                  <p class="sub-description">Et ses légumes de saison</p>
                 </div>
                 <div class="price">
                   <p class="sub-description">35€</p>
@@ -133,10 +146,8 @@
             <div class="choice">
               <a href="#" class="good flex-row">
                 <div class="info">
-                  <h2>Pigeonneau d’Ille-et-Vilaine</h2>
-                  <p class="sub-description">
-                    Sur son lit de gnocchis aux légumes
-                  </p>
+                  <h2>Côte de boeuf Angus</h2>
+                  <p class="sub-description">Et sa purée de panais</p>
                 </div>
                 <div class="price">
                   <p class="sub-description">44€</p>
@@ -154,8 +165,8 @@
             <div class="choice">
               <a href="#" class="good flex-row">
                 <div class="info">
-                  <h2>Pétales de violettes glacés</h2>
-                  <p class="sub-description">Et purée de noisettes</p>
+                  <h2>Farandole de desserts</h2>
+                  <p class="sub-description">Du chef</p>
                 </div>
                 <div class="price">
                   <p class="sub-description">18€</p>
@@ -168,7 +179,7 @@
             <div class="choice">
               <a href="#" class="good flex-row">
                 <div class="info">
-                  <h2>Fondant au chocolat</h2>
+                  <h2>Crème brulée</h2>
                   <p class="sub-description">Revisité</p>
                 </div>
                 <div class="price">
@@ -182,8 +193,8 @@
             <div class="choice">
               <a href="#" class="good flex-row">
                 <div class="info">
-                  <h2>Millefeuille croustillant</h2>
-                  <p class="sub-description">Myrtilles et pâte d’amande</p>
+                  <h2>Tiramisu</h2>
+                  <p class="sub-description">À la noisette</p>
                 </div>
                 <div class="price">
                   <p class="sub-description">23€</p>

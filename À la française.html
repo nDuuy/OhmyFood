@@ -14,6 +14,7 @@
     />
     <link rel="stylesheet" href="./Css/Normalize.css" />
     <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" href="./Css/menu.css" />
     <script
       src="https://kit.fontawesome.com/fcca775c18.js"
       crossorigin="anonymous"
@@ -34,19 +35,30 @@
           />
         </div>
       </header>
-
       <main>
         <img
           src="./Assets/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
           alt="image de fond"
           id="bg-img"
         />
-
         <div class="name-heart flex-row">
           <h1>À la française</h1>
-          <span class="heart-2"><i class="fa-regular fa-heart"></i></span>
+          <div class="heart-container menu-heart">
+            <svg class="heart-stroke">
+              <path
+                d="M20,35.07,4.55,19.62a8.5,8.5,0,0,1-.12-12l.12-.12a8.72,8.72,0,0,1,12.14,0L20,10.77l3.3-3.3A8.09,8.09,0,0,1,29.13,4.9a8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.12,12l-.12.12ZM10.64,7.13A6.44,6.44,0,0,0,6.07,18.19L20,32.06,33.94,18.12A6.44,6.44,0,0,0,34,9l0,0a6.44,6.44,0,0,0-4.77-1.85A6,6,0,0,0,24.83,9L20,13.78,15.21,9A6.44,6.44,0,0,0,10.64,7.13Z"
+              />
+            </svg>
+            <span class="heart-clip"></span>
+            <svg>
+              <clipPath id="svgPath">
+                <path
+                  d="M20,35.09,4.55,19.64a8.5,8.5,0,0,1-.13-12l.13-.13a8.72,8.72,0,0,1,12.14,0L20,10.79l3.3-3.3a8.09,8.09,0,0,1,5.83-2.58,8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.13,12l-.13.13Z"
+                />
+              </clipPath>
+            </svg>
+          </div>
         </div>
-
         <section class="entries">
           <h2 class="menu-title">Entrées</h2>
           <div class="menu">
@@ -94,7 +106,6 @@
             </div>
           </div>
         </section>
-
         <section class="plats">
           <h2 class="menu-title">Plats</h2>
           <div class="menu">
@@ -195,33 +206,27 @@
             </div>
           </div>
         </section>
-
         <section class="order">
           <a href="#" class="resto flex-row">Commander</a>
         </section>
-
-        <footer class="flex-column">
-          <div class="ftitle">
-            <h1>ohmyfood</h1>
-          </div>
-          <div class="svg-txt flex-row">
-            <span class="f-svg"
-              ><i class="fa-solid fa-utensils" id="Lbig"></i
-            ></span>
-            <p class="sub-description">Proposer un restaurant</p>
-          </div>
-          <div class="svg-txt flex-row">
-            <span class="f-svg"
-              ><i class="fa-solid fa-handshake-angle"></i
-            ></span>
-            <p class="sub-description">Devenir partenaire</p>
-          </div>
-          <div class="f-txt flex-column">
-            <a href="#" class="footer-link">Mention légales</a>
-            <a href="#" class="footer-link">Contact</a>
-          </div>
-        </footer>
       </main>
     </div>
+    <footer class="flex-column">
+      <div class="ftitle">
+        <h1>ohmyfood</h1>
+      </div>
+      <div class="svg-txt flex-row">
+        <i class="fa-solid fa-utensils"></i>
+        <a href="#" class="footer-link">Proposer un restaurant</a>
+      </div>
+      <div class="svg-txt flex-row">
+        <i class="fa-solid fa-handshake-angle" id="Lbig"></i>
+        <a href="#" class="footer-link">Devenir partenaire</a>
+      </div>
+      <div class="f-txt flex-column">
+        <a href="#" class="footer-link2">Mention légales</a>
+        <a href="#" class="footer-link2">Contact</a>
+      </div>
+    </footer>
   </body>
 </html>
