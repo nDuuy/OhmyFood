@@ -3,9 +3,8 @@
 /* header */
 
 #header-page {
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
-    margin-right: -5vh;
 }
 
 .arrow {
@@ -45,7 +44,8 @@
 
 .entries,
 .plats,
-.desserts {
+.desserts,
+.order {
     padding: 2vh 2vh;
     background-color: var(--main-color);
 }
