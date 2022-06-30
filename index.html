@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./Css/Normalize.css" />
-    <link rel="stylesheet" href="./Css/tab.css" />
+    <link rel="stylesheet" href="./Css/tabs-desktop.css" />
     <link rel="stylesheet" href="./Css/style.css" />
     <script
       src="https://kit.fontawesome.com/fcca775c18.js"
@@ -22,6 +22,11 @@
     <title>Page d'accueil</title>
   </head>
   <body>
+    <div class="loader flex-row">
+      <span class="loader-dot loader-dot--one"></span>
+      <span class="loader-dot loader-dot--two"></span>
+      <span class="loader-dot loader-dot--three"></span>
+    </div>
     <div class="everything">
       <header class="flex-column">
         <img
@@ -74,7 +79,7 @@
         <section class="restaurant flex-column">
           <h1 id="title-3">Restaurants</h1>
           <div class="thumbnail flex-column">
-            <a href="./La palette du goût.html">
+            <a href="./La palette du goût.html" class="resize-query">
               <figure class="thumb-card">
                 <div class="img-new">
                   <img
@@ -107,7 +112,7 @@
                 </figcaption>
               </figure>
             </a>
-            <a href="./La note enchantée.html">
+            <a href="./La note enchantée.html" class="resize-query">
               <figure class="thumb-card">
                 <div class="img-new">
                   <img
@@ -140,7 +145,7 @@
                 </figcaption>
               </figure>
             </a>
-            <a href="./À la française.html">
+            <a href="./À la française.html" class="resize-query">
               <figure class="thumb-card">
                 <img
                   src="./Assets/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
@@ -170,7 +175,7 @@
                 </figcaption>
               </figure>
             </a>
-            <a href="./Le délice des sens.html">
+            <a href="./Le délice des sens.html" class="resize-query">
               <figure class="thumb-card">
                 <img
                   src="./Assets/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
@@ -208,13 +213,15 @@
       <div class="ftitle">
         <h1>ohmyfood</h1>
       </div>
-      <div class="svg-txt flex-row">
-        <i class="fa-solid fa-utensils"></i>
-        <a href="#" class="footer-link">Proposer un restaurant</a>
-      </div>
-      <div class="svg-txt flex-row">
-        <i class="fa-solid fa-handshake-angle" id="Lbig"></i>
-        <a href="#" class="footer-link">Devenir partenaire</a>
+      <div class="metal">
+        <div class="svg-txt flex-row">
+          <i class="fa-solid fa-utensils"></i>
+          <a href="#" class="footer-link">Proposer un restaurant</a>
+        </div>
+        <div class="svg-txt flex-row">
+          <i class="fa-solid fa-handshake-angle" id="Lbig"></i>
+          <a href="#" class="footer-link">Devenir partenaire</a>
+        </div>
       </div>
       <div class="f-txt flex-column">
         <a href="#" class="footer-link2">Mention légales</a>

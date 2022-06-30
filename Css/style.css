@@ -39,7 +39,7 @@ a {
 }
 
 h1 {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
 }
 
 h2 {
@@ -74,6 +74,53 @@ figure {
   flex-direction: column;
 }
 
+/* loader */
+
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: #f6f6f6e8;
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+  animation: 3s load-spinner ease-in-out forwards;
+}
+
+.loader-dot {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 0px 10px;
+  animation: 1s load-spinner ease-in-out infinite;
+  background: #7e7d7d;
+}
+
+.loader-dot--one {
+  animation-delay: 0.4s;
+}
+
+.loader-dot--two {
+  animation-delay: 0.6s;
+}
+
+.loader-dot--three {
+  animation-delay: 0.8s;
+}
+
+@keyframes load-spinner {
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: hidden;
+  }
+}
+
 /* header */
 
 header {
@@ -83,7 +130,7 @@ header {
 }
 
 #logo-ohmyFood {
-  width: 55%;
+  width: 60%;
   max-width: 32vh;
   height: auto;
   margin: 20px 0px 15px 0px;
