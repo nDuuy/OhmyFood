@@ -33,12 +33,6 @@
         margin: 0vh auto;
     }
 
-    /* .thumbnail.flex-column {
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    } */
-
     .resize-query {
         width: 100%;
         margin: 0vh 15vh;
@@ -50,3 +44,4 @@
         align-items: flex-start;
         margin: 0vh 2vh 0vh 0vh;
     }
+}
