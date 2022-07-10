@@ -1,0 +1,61 @@
+@media all and (min-width: 992px) and (max-width: 3000px) {
+    /* trouver restaurant */
+
+    #tabs-pc {
+        margin-left: 1vh;
+    }
+
+    .find-restaurant.flex-column {
+        padding-bottom: 10vh;
+    }
+
+    /* fonctionnement */
+
+    .work.flex-column {
+        align-items: center;
+        padding: 2vh 0vh;
+    }
+
+    .work-btns.flex-row {
+        margin: 1vh 10vh 1vh 0vh;
+    }
+
+    .number.flex-row {
+        margin: 0vh 0vh 0vh -1vh;
+    }
+
+    /* reataurants */
+
+    .restaurant.flex-column {
+        align-items: center;
+        margin-top: 5vh;
+    }
+
+    .thumbnail.flex-column {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .resize-query {
+        margin: 0vh 1vh;
+    }
+
+    #resto-img {
+        max-height: 50vh;
+    }
+
+    /* ////////////////////////////// */
+
+    /* menu pages */
+
+    .gg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .name-heart {
+        margin: 0vh auto;
+    }
+
+}
