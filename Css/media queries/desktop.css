@@ -1,4 +1,4 @@
-@media all and (min-width: 992px) and (max-width: 3000px) {
+@media all and (min-width: 1026px) and (max-width: 3000px) {
     /* trouver restaurant */
 
     #tabs-pc {
@@ -29,33 +29,52 @@
     .restaurant.flex-column {
         align-items: center;
         margin-top: 5vh;
+        max-width: 100vw;
     }
 
     .thumbnail.flex-column {
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: center;
+
+    }
+
+    #resto-img {
+        max-height: 17vh !important;
+    }
+
+    .b6666.flex-row {
+        flex-direction: column;
+
+        width: 23vw;
+    }
+
+    .name-where.flex-column {
+        padding: 1vh 0vh;
+        align-items: center;
+    }
+
+    .heart-container {
+        width: 4vh !important;
+        margin: 0vh !important;
+        height: 5vh !important;
     }
 
     .resize-query {
         margin: 0vh 1vh;
     }
 
-    #resto-img {
-        max-height: 50vh;
-    }
-
     /* ////////////////////////////// */
 
     /* menu pages */
 
-    .gg {
+    .wrap {
         display: flex;
         justify-content: center;
     }
 
     .name-heart {
-        margin: 0vh auto;
+
+        border-radius: 0% !important;
     }
 
 }

@@ -69,20 +69,23 @@
 }
 
 .heart-container {
-  width: 35px;
-  height: 35px;
+  width: 7vh;
+  height: 4vh;
   position: relative;
   cursor: pointer;
-  margin: 0vh 3vh 3vh 0vh;
+  margin: 0vh 0vh 3vh 5vh;
 }
 
 .heart-stroke {
   position: absolute;
   color: black;
+  width: 6vh;
+  height: 5vh;
 }
 
 .heart-clip {
-
+  width: 0vh;
+  height: 0vh;
   clip-path: url(#svgPath);
 }
 
@@ -94,11 +97,11 @@
 .heart-clip::before {
   content: "";
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 5vh;
+  height: 5vh;
+  transform: scale(0);
   border-radius: 50%;
   background: linear-gradient(rgb(147, 86, 220), rgb(255, 121, 218));
-  transform: scale(0);
   transition: transform 0.2s linear, opacity 0.2s linear;
   transform-origin: bottom;
 }
@@ -193,6 +196,7 @@
 .price {
   font-weight: bold;
   margin-top: 3vh;
+  transform: translate(-10px, 0px);
 }
 
 @-webkit-keyframes slide-right {
@@ -206,7 +210,6 @@
     transform: translatex(0px);
     opacity: 1;
     width: 10vh;
-    margin-left: 3vh;
   }
 }
 
@@ -221,7 +224,6 @@
     transform: translatex(0px);
     opacity: 1;
     width: 10vh;
-    margin-left: 3vh;
   }
 }
 
