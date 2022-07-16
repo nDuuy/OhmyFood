@@ -72,9 +72,14 @@
         justify-content: center;
     }
 
-    .name-heart {
-
-        border-radius: 0% !important;
+    .entries,
+    .plats,
+    .desserts,
+    .order {
+        width: 32vw;
     }
 
+    .name-heart {
+        border-radius: 0% !important;
+    }
 }
