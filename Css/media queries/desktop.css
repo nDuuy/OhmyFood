@@ -67,6 +67,11 @@
 
     /* menu pages */
 
+    .logo {
+        margin: 0vh !important;
+        width: 40vw !important;
+    }
+
     .wrap {
         display: flex;
         justify-content: center;
