@@ -1,0 +1,90 @@
+@media all and (min-width: 1026px) and (max-width: 3000px) {
+    /* trouver restaurant */
+
+    .tabs-pc {
+        margin-left: 1vh;
+    }
+
+    .find-restaurant.flex-column {
+        padding-bottom: 10vh;
+    }
+
+    /* fonctionnement */
+
+    .work.flex-column {
+        align-items: center;
+        padding: 2vh 0vh;
+    }
+
+    .work-btns.flex-row {
+        margin: 1vh 10vh 1vh 0vh;
+    }
+
+    .number.flex-row {
+        margin: 0vh 0vh 0vh -1vh;
+    }
+
+    /* reataurants */
+
+    .restaurant.flex-column {
+        align-items: center;
+        margin-top: 5vh;
+        max-width: 100vw;
+    }
+
+    .thumbnail.flex-column {
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .resto-img {
+        max-height: 17vh !important;
+    }
+
+    .b6666.flex-row {
+        flex-direction: column;
+
+        width: 23vw;
+    }
+
+    .name-where.flex-column {
+        padding: 1vh 0vh;
+        align-items: center;
+    }
+
+    .heart-container {
+        width: 4vh !important;
+        margin: 0vh !important;
+        height: 5vh !important;
+    }
+
+    .resize-query {
+        margin: 0vh 1vh;
+    }
+
+    /* ////////////////////////////// */
+
+    /* menu pages */
+
+    .logo {
+        margin: 0vh !important;
+        width: 40vw !important;
+    }
+
+    .wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+    .entries,
+    .plats,
+    .desserts,
+    .order {
+        width: 32vw;
+    }
+
+    .name-heart {
+        border-radius: 0% !important;
+    }
+}
